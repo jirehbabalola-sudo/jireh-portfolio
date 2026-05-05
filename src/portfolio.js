@@ -1,4 +1,3 @@
-```javascript
 /* Change this file to get your personal Portfolio */
 
 // Website related settings

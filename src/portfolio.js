@@ -1,3 +1,4 @@
+```javascript
 /* Change this file to get your personal Portfolio */
 
 // Website related settings
@@ -8,6 +9,7 @@ const settings = {
 // SEO Related settings
 const seo = {
   title: "Jireh Babalola Portfolio",
+
   description:
     "Substation Engineer, Project Manager, and MBA Candidate passionate about power systems, leadership, operational excellence, and sustainable energy solutions.",
 
@@ -21,6 +23,7 @@ const seo = {
 // Home Page
 const greeting = {
   title: "Jireh Babalola",
+
   logo_name: "JirehBabalola",
 
   nickname: "Substation Engineer & MBA Candidate",
@@ -37,6 +40,7 @@ const greeting = {
   githubProfile: "https://github.com/jirehbabalola-sudo",
 };
 
+// Social Media Links
 const socialMediaLinks = [
   {
     name: "Github",
@@ -60,29 +64,28 @@ const socialMediaLinks = [
   },
 ];
 
+// Skills Section
 const skills = {
   data: [
     {
       title: "Power Systems Engineering",
 
-      fileName: "DataScienceImg",
+      fileName: "FullStackImg",
 
       skills: [
-        "⚡ Relay Coordination and Fault Analysis for transmission and distribution systems",
+        "⚡ Designing and implementing advanced protection and control systems for substations and transmission infrastructure",
 
-        "⚡ Protection Scheme Development and Substation Design",
+        "⚡ Conducting relay coordination studies, fault current analysis, and system resiliency assessments",
 
-        "⚡ Power system operational analysis and grid reliability improvement",
+        "⚡ Supporting SCADA integration, RTU configuration, automation systems, and operational reliability improvements",
 
-        "⚡ SCADA Integration and RTU Configuration support",
+        "⚡ Leading engineering projects focused on operational efficiency, compliance, risk mitigation, and infrastructure modernization",
       ],
 
       softwareSkills: [
         {
           skillName: "ASPEN",
-
           fontAwesomeClassname: "simple-icons:powerbi",
-
           style: {
             color: "#F2C811",
           },
@@ -90,123 +93,41 @@ const skills = {
 
         {
           skillName: "MATLAB",
-
           fontAwesomeClassname: "simple-icons:mathworks",
-
           style: {
-            color: "#E16737",
+            color: "#FF6F00",
           },
         },
 
         {
-          skillName: "SCADA",
-
-          fontAwesomeClassname: "simple-icons:siemens",
-
+          skillName: "Python",
+          fontAwesomeClassname: "logos-python",
           style: {
-            color: "#009999",
+            color: "#3776AB",
           },
         },
 
         {
           skillName: "AutoCAD",
-
           fontAwesomeClassname: "simple-icons:autodesk",
-
           style: {
             color: "#E51050",
           },
         },
-      ],
-    },
 
-    {
-      title: "Engineering Tools & Technical Systems",
-
-      fileName: "FullStackImg",
-
-      skills: [
-        "⚡ RTU Configuration and SCADA Integration",
-
-        "⚡ Technical reporting, operational planning, and engineering analysis",
-
-        "⚡ Experience working with electrical protection and automation systems",
-      ],
-
-      softwareSkills: [
         {
-          skillName: "Python",
-
-          fontAwesomeClassname: "logos-python",
-
+          skillName: "LabVIEW",
+          fontAwesomeClassname: "simple-icons:ni",
           style: {
-            backgroundColor: "transparent",
+            color: "#FFDB00",
           },
         },
 
         {
-          skillName: "C++",
-
-          fontAwesomeClassname: "logos-c-plusplus",
-
+          skillName: "SCADA",
+          fontAwesomeClassname: "simple-icons:siemens",
           style: {
-            backgroundColor: "transparent",
-          },
-        },
-
-        {
-          skillName: "Verilog",
-
-          fontAwesomeClassname: "simple-icons:verilog",
-
-          style: {
-            color: "#3366CC",
-          },
-        },
-
-        {
-          skillName: "Excel",
-
-          fontAwesomeClassname: "simple-icons:microsoftexcel",
-
-          style: {
-            color: "#217346",
-          },
-        },
-      ],
-    },
-
-    {
-      title: "Leadership & Project Management",
-
-      fileName: "CloudInfraImg",
-
-      skills: [
-        "⚡ Leading cross-functional engineering and operational teams",
-
-        "⚡ Risk Mitigation and Project Execution",
-
-        "⚡ Strategic leadership focused on sustainability and operational excellence",
-      ],
-
-      softwareSkills: [
-        {
-          skillName: "Project Management",
-
-          fontAwesomeClassname: "simple-icons:trello",
-
-          style: {
-            color: "#0052CC",
-          },
-        },
-
-        {
-          skillName: "Leadership",
-
-          fontAwesomeClassname: "simple-icons:linkedin",
-
-          style: {
-            color: "#0A66C2",
+            color: "#009999",
           },
         },
       ],
@@ -215,16 +136,12 @@ const skills = {
 };
 
 // Education Page
-const competitiveSites = {
-  competitiveSites: [],
-};
-
 const degrees = {
   degrees: [
     {
       title: "Bethel University",
 
-      subtitle: "MBA",
+      subtitle: "Master of Business Administration (MBA)",
 
       logo_path: "bethel.png",
 
@@ -233,7 +150,9 @@ const degrees = {
       duration: "Expected Dec 2025",
 
       descriptions: [
-        "⚡ Currently pursuing MBA focused on leadership, strategic management, and organizational development.",
+        "⚡ Pursuing MBA focused on leadership, strategic management, organizational development, and operational excellence.",
+
+        "⚡ Strengthening business leadership capabilities within the energy and infrastructure sector.",
       ],
 
       website_link: "https://www.bethel.edu/",
@@ -242,16 +161,18 @@ const degrees = {
     {
       title: "Bethel University",
 
-      subtitle: "BSc Electrical Engineering",
+      subtitle: "Bachelor of Science in Electrical Engineering",
 
       logo_path: "bethel.png",
 
       alt_name: "Bethel University",
 
-      duration: "2023",
+      duration: "May 2023",
 
       descriptions: [
-        "⚡ Studied electrical engineering with focus on power systems, protection systems, and operational engineering.",
+        "⚡ Specialized in power systems engineering, protection systems, and substation operations.",
+
+        "⚡ Built strong foundations in engineering analysis, operational planning, automation systems, and infrastructure reliability.",
       ],
 
       website_link: "https://www.bethel.edu/",
@@ -259,48 +180,49 @@ const degrees = {
   ],
 };
 
+// Certifications
 const certifications = {
   certifications: [
     {
-      title: "PMP",
+      title: "Project Management Professional (PMP)",
 
       subtitle: "- In Progress",
 
-      logo_path: "certification.png",
+      logo_path: "greatriverenergy.png",
 
       certificate_link: "#",
 
-      alt_name: "Project Management",
+      alt_name: "PMP",
 
       color_code: "#0C9D5899",
     },
 
     {
+      title: "NERC Certification",
+
+      subtitle: "- In Progress",
+
+      logo_path: "greatriverenergy.png",
+
+      certificate_link: "#",
+
+      alt_name: "NERC",
+
+      color_code: "#FFBB0099",
+    },
+
+    {
       title: "Advanced Relay Protection Training",
 
-      subtitle: "- Professional Training",
+      subtitle: "- Completed 2023",
 
-      logo_path: "certification.png",
+      logo_path: "greatriverenergy.png",
 
       certificate_link: "#",
 
       alt_name: "Relay Protection",
 
-      color_code: "#1F70C199",
-    },
-
-    {
-      title: "Leadership & Strategic Management",
-
-      subtitle: "- Professional Training",
-
-      logo_path: "certification.png",
-
-      certificate_link: "#",
-
-      alt_name: "Leadership",
-
-      color_code: "#FFBB0099",
+      color_code: "#4285F499",
     },
   ],
 };
@@ -309,16 +231,16 @@ const certifications = {
 const experience = {
   title: "Experience",
 
-  subtitle: "Professional Engineering Experience",
+  subtitle: "Engineering, Leadership & Operations",
 
   description:
-    "Experienced in substation engineering, project management, operational planning, protection systems, and power system modernization initiatives.",
+    "Experienced in substation engineering, protection systems, project execution, operational leadership, compliance management, and power infrastructure modernization.",
 
   header_image_path: "experience.svg",
 
   sections: [
     {
-      title: "Work",
+      title: "Work Experience",
 
       work: true,
 
@@ -334,12 +256,75 @@ const experience = {
 
           duration: "Aug 2023 – Present",
 
+          location: "Maple Grove, Minnesota, USA",
+
+          description:
+            "Lead substation protection and control upgrade projects while ensuring execution within budget and timeline constraints. Design advanced protection schemes for transformers, breakers, and reactors while improving fault detection efficiency and maintaining compliance with NERC, IEEE, ANSI, and NESC standards. Collaborate with engineers, vendors, contractors, and operational teams to enhance system reliability, operational efficiency, and project success rates.",
+
+          color: "#0879bf",
+        },
+
+        {
+          title: "System Protection Engineering Intern",
+
+          company: "Xcel Energy",
+
+          company_url: "https://www.xcelenergy.com/",
+
+          logo_path: "greatriverenergy.png",
+
+          duration: "May 2021 – Jul 2023",
+
+          location: "Saint Paul, Minnesota, USA",
+
+          description:
+            "Supported substation protection engineering projects involving relay coordination studies, fault current analysis, relay testing, grounding plans, and SCADA integration. Assisted with RTU configuration, automation systems, and protection upgrades while gaining practical experience in utility operations and system resiliency.",
+
+          color: "#FFBB00",
+        },
+      ],
+    },
+
+    {
+      title: "Leadership & Professional Involvement",
+
+      experiences: [
+        {
+          title: "Chair, People of Color Group",
+
+          company: "Great River Energy",
+
+          company_url: "https://greatriverenergy.com/",
+
+          logo_path: "greatriverenergy.png",
+
+          duration: "Present",
+
           location: "Minnesota, USA",
 
           description:
-            "Led protection and control upgrade projects across multiple substations. Improved fault detection efficiency by 50%, reduced project timelines by 30%, and ensured compliance with NERC, IEEE, ANSI, and NESC standards while collaborating with engineering teams, contractors, and stakeholders.",
+            "Lead initiatives focused on diversity, inclusion, mentorship, professional development, and community engagement while organizing internal events and volunteer programs.",
 
-          color: "#0879bf",
+          color: "#0C9D58",
+        },
+
+        {
+          title: "GRE Ambassador",
+
+          company: "Great River Energy",
+
+          company_url: "https://greatriverenergy.com/",
+
+          logo_path: "greatriverenergy.png",
+
+          duration: "Present",
+
+          location: "Minnesota, USA",
+
+          description:
+            "Represent the company at career fairs and professional events while mentoring aspiring engineers and advocating for leadership and workforce development in the energy sector.",
+
+          color: "#D83B01",
         },
       ],
     },
@@ -351,59 +336,61 @@ const projectsHeader = {
   title: "Projects",
 
   description:
-    "Projects focused on power systems engineering, protection systems, operational efficiency, and grid modernization.",
+    "Projects focused on protection systems, substation modernization, operational reliability, automation, and power systems engineering.",
 
   avatar_image_path: "projects_image.svg",
 };
 
+// Publications Header Replacement
 const publicationsHeader = {
-  title: "Leadership & Engineering Focus",
+  title: "Leadership Philosophy",
 
   description:
-    "Focused on innovation, operational excellence, leadership, and sustainable energy solutions.",
+    "I believe leadership is rooted in integrity, accountability, collaboration, and empowering others to grow while delivering sustainable and impactful engineering solutions.",
 
   avatar_image_path: "projects_image.svg",
 };
 
+// Projects / Publications Data
 const publications = {
   data: [
     {
-      id: "substation-protection",
+      id: "substation-protection-upgrade",
 
       name: "Substation Protection & Control Upgrade Initiative",
 
       createdAt: "2024-01-01T00:00:00Z",
 
       description:
-        "Led modernization of protection and control systems across substations to improve reliability, fault detection, and operational performance.",
+        "Led modernization of protection and control systems across substations to improve reliability, operational efficiency, and compliance standards.",
 
-      url: "https://github.com/jirehbabalola-sudo/jireh-portfolio",
+      url: "https://github.com/jirehbabalola-sudo",
     },
 
     {
-      id: "relay-coordination",
+      id: "relay-coordination-analysis",
 
       name: "Relay Coordination & Fault Current Analysis",
 
-      createdAt: "2024-01-01T00:00:00Z",
+      createdAt: "2024-02-01T00:00:00Z",
 
       description:
-        "Conducted technical studies and developed protection schemes for transformers, breakers, and transmission systems.",
+        "Conducted relay coordination studies and developed advanced protection schemes for transformers, breakers, and transmission systems.",
 
-      url: "https://github.com/jirehbabalola-sudo/jireh-portfolio",
+      url: "https://github.com/jirehbabalola-sudo",
     },
 
     {
-      id: "scada-rtu",
+      id: "scada-rtu-integration",
 
       name: "SCADA & RTU Integration Support",
 
-      createdAt: "2024-01-01T00:00:00Z",
+      createdAt: "2024-03-01T00:00:00Z",
 
       description:
-        "Supported RTU configuration and SCADA integration projects for automation and system monitoring improvements.",
+        "Supported SCADA integration and RTU configuration projects to improve communication efficiency, automation, and operational visibility.",
 
-      url: "https://github.com/jirehbabalola-sudo/jireh-portfolio",
+      url: "https://github.com/jirehbabalola-sudo",
     },
   ],
 };
@@ -416,7 +403,7 @@ const contactPageData = {
     profile_image_path: "jireh.png",
 
     description:
-      "I am always open to meaningful conversations, professional collaborations, and opportunities that create impact through engineering, leadership, and innovation.",
+      "I am always open to meaningful conversations, professional collaborations, and opportunities that create impact through engineering, leadership, innovation, and sustainable energy solutions.",
   },
 
   blogSection: {
@@ -425,13 +412,13 @@ const contactPageData = {
     subtitle:
       "To apply engineering principles, strategic thinking, and leadership to create sustainable impact through innovation, operational excellence, and responsible energy solutions.",
 
-    link: "https://github.com/jirehbabalola-sudo",
+    link: "https://www.linkedin.com/in/jirehbablola/",
 
-    avatar_image_path: "blogs_image.svg",
+    avatar_image_path: "projects_image.svg",
   },
 
   addressSection: {
-    title: "Address",
+    title: "Location",
 
     subtitle: "Maple Grove, Minnesota, USA",
 
@@ -463,7 +450,6 @@ export {
   greeting,
   socialMediaLinks,
   skills,
-  competitiveSites,
   degrees,
   certifications,
   experience,

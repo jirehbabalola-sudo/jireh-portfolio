@@ -179,6 +179,29 @@ const degrees = {
   ],
 };
 
+// Competitive Sites
+const competitiveSites = {
+  competitiveSites: [
+    {
+      siteName: "LinkedIn",
+      iconifyClassname: "simple-icons:linkedin",
+      style: {
+        color: "#0A66C2",
+      },
+      profileLink: "https://www.linkedin.com/in/jirehbablola/",
+    },
+
+    {
+      siteName: "GitHub",
+      iconifyClassname: "simple-icons:github",
+      style: {
+        color: "#181717",
+      },
+      profileLink: "https://github.com/jirehbabalola-sudo",
+    },
+  ],
+};
+
 // Certifications
 const certifications = {
   certifications: [
@@ -450,6 +473,7 @@ export {
   socialMediaLinks,
   skills,
   degrees,
+  competitiveSites,
   certifications,
   experience,
   projectsHeader,
